@@ -21,3 +21,6 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 Route::get('/', function () {
     return response()->json(['organization' => 'Student Cyber Games']);
 });
+Route::get('/test', function () {
+    return response()->json(['organization' => 'Student Cyber Games']);
+});
